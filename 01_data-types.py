@@ -6,15 +6,27 @@ Print both the original variable and the converted integer.
 """
 my_age= 17.01 #Made a variable
 
-age= int(my_age) #Made new variable and put old variable int 
+age_current= int(my_age) #Made new variable and put old variable int 
 
 print(my_age) #Printed orignal variable and converted integer
 
+print(age_current)
 """
 TASK 2:
 Write code that takes a number as input and prints whether 
 it's positive, negative, or zero using if-elif-else statements.
 """
+number1= 98
+
+if number1 > 0:
+   print("positive")
+
+else:
+   print("Negative")
+
+
+
+
 
 
 
@@ -53,6 +65,11 @@ TASK 5:
 Create a string variable with that is a list of numbers and convert that string into a tuple.
 Then print out the both the original string and tuple.
 """
+my_string= [90, 79, 45]
+
+tuple(my_string)
+print(my_string)
+print(tuple)
 
 """
 TASK 6:
