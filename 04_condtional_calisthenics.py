@@ -17,9 +17,9 @@ Print("Are you a student?")
 Answer1= input( "yes or no")
 Print("What's your age?")
 Answer2= input()
-if Answer1== "yes":
+if Answer1== "yes" or Answer2 < 18:
     print("Ticket price is $10") 
-if Answer1=="no":
+else:
     print("Ticket price is $20")
 
 '''
@@ -28,8 +28,15 @@ Prompt the user to enter a fruit name. Check if the fruit is in the list.
 If it is, print "Yes, that fruit is in the list." 
 If it's not, print "No, that fruit is not in the list."
 '''
-print("Enter a fruit name")
-Fruit1= ["Apple", "Grapes", "Plums"]
+print("Enter Apple.")
+Fruit1= ["Apple", "Apple", "Apple"]
+print("Apple" in Fruit1)
+if "Apple" in Fruit1:
+    print("Yes, that fruit is in the list.")
+else: 
+    print("No, that fruit is not in the list.")
+
+
 
 
 
