@@ -14,7 +14,7 @@ input1= input("Select operation:"
 if input1 == "Addition": #Created if statements for each operation 
     print(num1 + num2) 
     
-elif input1 == "subtraction":
+elif input1 == "Subtraction":
     print(num1-num2)
         
 elif input1== "Multiplication":
