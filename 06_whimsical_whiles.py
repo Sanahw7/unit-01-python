@@ -52,7 +52,7 @@ userinp = input("") #made a second varible for the user to input their guess
 while userinp != mypass: #this basically says if the password doesn't equal mypass aka the correct password, the user is give the message wrong
     print("Wrong") #it will then repeat until the user gets it right 
     
-    userinp = input("") #this just asks the user again
+    userinp = input("") #this just asks the user the question
     
 print("congrats") #once the user gets it right they'll be prompted with is message 
 
