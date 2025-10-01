@@ -1,6 +1,11 @@
 print("This your To-do list.")
 
-List=[]
+with open("To-do.txt") as file:
+    
+    List = file.readlines()
+    
+print (List)
+
 
 while True:
     
@@ -14,7 +19,7 @@ while True:
         increase +=1
            
     
-    question1 = input('would you like to "add", "remove" or "clear all" something?')
+    question1 = input('would you like to "add", "remove", "exit" or "clear all" something?')
     
     if question1 == "add":
         
@@ -35,6 +40,19 @@ while True:
     if question1 == "clear all":
         
         List.clear()
+        
+    
+    if question1 == "exit":
+        
+        with open( "To-do.txt") as file:
+            
+            file.writelines(List)
+            
+            print(List)
+            
+            break
+    
+
         
         
         
