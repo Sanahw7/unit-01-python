@@ -1,10 +1,20 @@
 print("This your To-do list.")
 
-List=['Apples', 'plums', 'grapes', 'oranges']
+List=[]
 
 while True:
     
-    question1 = input('would you like to "add" or "remove" something?')
+    increase = 1
+     
+    for x in List:
+        print(x)
+        
+        print(increase)
+        
+        increase +=1
+           
+    
+    question1 = input('would you like to "add", "remove" or "clear all" something?')
     
     if question1 == "add":
         
@@ -22,19 +32,12 @@ while True:
         
         List.remove(answer2)
         
-        for x in List:
-            print(x)
-            
-    question2= input('Would you like to "remove", "add" or "clear all"')
-    
-    if question2== "clear all":
-            
+    if question1 == "clear all":
+        
         List.clear()
         
-        print("Here's your current list:")
         
-        for z in List:
-            print(z)
+        
     
         
    
