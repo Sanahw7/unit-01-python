@@ -47,4 +47,6 @@ Write a program that takes in two floats, and prints the quotient
 The result should be rounded to the nearest tenth (1 decimal place)
 """
 
-num =
+num = 31.4 
+num2= 41.6
+
