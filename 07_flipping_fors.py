@@ -41,7 +41,7 @@ Excercise 4:
 Write a program that creates a dictionary (atleast 4 key:value pairs) and then
 iterates through a dictionary and prints the result
 """
-def_1 = {
+def_1 = { #make a a dictionary
     
     'python': 1, 
     
@@ -49,7 +49,7 @@ def_1 = {
     
     'javascript' : 3,
 
-    'html': 4
+    'html': 4 # gave each string a value
     
 } 
 
@@ -62,3 +62,5 @@ for y in def_1:
 In a comment, answer the following, what do you notice about the output of your code?
 Is it what you expected?
 """
+
+#What I noticed was it printed out the values of the list veritcally
